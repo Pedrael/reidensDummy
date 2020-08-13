@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/parent">Parent-Child Relations</router-link>
+      <router-link to="/parent">Parent-Child Relations</router-link> |
+      <router-link to="/general">General vue shit</router-link>
       <!-- там можно делать ссылки на маршруты внутри хтмл -->
     </div>
     <router-view/>
@@ -26,6 +27,7 @@
   height: 100vh;
   background: rgb(237, 237, 237);
   color: black;
+  flex-wrap: wrap;
 }
 #nav {
   position: absolute;

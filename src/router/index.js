@@ -13,6 +13,11 @@ Vue.use(VueRouter)
     path: '/parent',
     name: 'Parent',
     component: () => import('../views/Parent.vue')
+  },
+  {
+    path: '/general',
+    name: 'General',
+    component: () => import('../views/General.vue')
   }
 ]
 
