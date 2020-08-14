@@ -18,6 +18,11 @@ Vue.use(VueRouter)
     path: '/general',
     name: 'General',
     component: () => import('../views/General.vue')
+  },
+  {
+    path: '/vuex',
+    name: 'Vuex',
+    component: () => import('../views/VuexLayout.vue')
   }
 ]
 
