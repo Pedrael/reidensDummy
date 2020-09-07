@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |+|
       <router-link to="/parent">Parent-Child Relations</router-link> |+|
       <router-link to="/general">General vue shit</router-link> |+|
-      <router-link to="/vuex">Vuex</router-link> |
+      <router-link to="/vuex">Vuex</router-link> |+|
+      <router-link to="/vuex/1">Vuex2</router-link> |
       <!-- там можно делать ссылки на маршруты внутри хтмл -->
     </div>
     <router-view/>

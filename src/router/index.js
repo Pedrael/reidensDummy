@@ -23,6 +23,11 @@ Vue.use(VueRouter)
     path: '/vuex',
     name: 'Vuex',
     component: () => import('../views/VuexLayout.vue')
+  },
+  {
+    path: '/vuex/:id',
+    name: 'Vuex',
+    component: () => import('../views/Parent.vue')
   }
 ]
 
